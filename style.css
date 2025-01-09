@@ -3,11 +3,11 @@
    font-family: "Nineteen Ninety Seven";
    font-style: normal;
    font-weight: 400;
-   src: local("Nineteen Ninety Seven"),
+   src: local("Nineteen Ninety Seven");
       /* Пути к файлам шрифта */
-      url("../fonts/NineteenNinetySeven.otf") format("otf"),
-      url("../fonts/NineteenNinetySeven.ttf") format("ttf"),
-      url("../fonts/NineteenNinetySeven.woff") format("woff"),
+      url("../fonts/NineteenNinetySeven.otf") format("otf");
+      url("../fonts/NineteenNinetySeven.ttf") format("ttf");
+      url("../fonts/NineteenNinetySeven.woff") format("woff");
       url("../fonts/NineteenNinetySeven.woff2") format("woff2");
 }
 
@@ -17,7 +17,7 @@ html {
 }
 
 /* замена изображения курсора при наведения на ссылки*/
-.mario-img,
+.mario-img
 a {
    cursor: url("../image/cuesor_on_link.png") 18 0, auto;
 }
